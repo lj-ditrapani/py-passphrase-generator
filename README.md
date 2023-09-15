@@ -1,6 +1,6 @@
 # Py Passphrase Generator
 
-Generate secure, random passphrase from a word list.
+Generate random passphrases from a word list.
 
     ```
     python app.py --help
@@ -20,6 +20,21 @@ Generate secure, random passphrase from a word list.
       --wordlist {bip39,eff-large,eff-short,eff-short-2}, -l {bip39,eff-large,eff-short,eff-short-2}
                             source word list from bitcoin or eff.org
     ```
+
+
+## Why?
+
+For use in generating the few passwords in life you _have_ to remember.
+Like your password for logging into your physical laptop or a master password
+for a password vault.
+Many websites exists that do this already.
+But I want a tool I can read the source in 5 mintues and run on my own machine.
+
+![xkcd password strength comit](https://imgs.xkcd.com/comics/password_strength.png)
+
+Websites that do the same thing:
+- <https://diceware.dmuth.org/>
+- <https://1password.com/password-generator/>
 
 
 ## Running with Docker
