@@ -14,7 +14,7 @@ Read the help.
    ```
 - run the app from docker!
    ```commandline
-   sh docker-run.sh
+   docker run pass-gen 8 '-'
    ```
 
 
