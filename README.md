@@ -48,7 +48,7 @@ You can choose from any of these word lists when you run the program.
 | eff short 1   | 1296          | 10.33985               |
 | eff short 2.0 | 1296          | 10.33985               |
 
-Multiply the `bits of entropy / word` by you passphrase word count to
+Multiply the `bits of entropy / word` by your passphrase word count to
 get the total passphrase entropy.
 
 
