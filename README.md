@@ -1,9 +1,25 @@
 # Py Passphrase Generator
 
 Generate secure, random passphrase from a word list.
-Read the help.
 
+    ```
     python app.py --help
+    ```
+
+    ```
+    usage: app.py [-h] [--wordlist {bip39,eff-large,eff-short,eff-short-2}]
+              count separator
+
+    positional arguments:
+      count                 number of random words to generate
+      separator             string to insert between words. Use ' ' for empty
+                            space
+
+    options:
+      -h, --help            show this help message and exit
+      --wordlist {bip39,eff-large,eff-short,eff-short-2}, -l {bip39,eff-large,eff-short,eff-short-2}
+                            source word list from bitcoin or eff.org
+    ```
 
 
 ## Running with Docker
