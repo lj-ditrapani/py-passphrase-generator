@@ -2,13 +2,13 @@ import argparse
 import secrets
 
 
-def gen_passphrase(word_count: int, separator: str, file_prefix: str):
+def gen_passphrase(word_count: int, separator: str, file_prefix: str) -> None:
     with open(file_prefix + ".txt", "r") as file:
         text = file.read()
     lines = [line.strip() for line in text.strip().splitlines()]
     count = len(lines)
 
-    def gen_word():
+    def gen_word() -> str:
         i = secrets.randbelow(count)
         return lines[i]
 
