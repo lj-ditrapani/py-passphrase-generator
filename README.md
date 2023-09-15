@@ -37,6 +37,21 @@ Websites that do the same thing:
 - <https://1password.com/password-generator/>
 
 
+## Word lists
+
+You can choose from any of these word lists when you run the program.
+
+| word list     | size          | bits of entropy / word |
+| ------------- | ------------- | ---------------------- |
+| bitcoin bip39 | 2048          | 11                     |
+| eff large     | 7776          | 12.9248125             |
+| eff short 1   | 1296          | 10.33985               |
+| eff short 2.0 | 1296          | 10.33985               |
+
+Multiply the `bits of entropy / word` by you passphrase word count to
+get the total passphrase entropy.
+
+
 ## Running with Docker
 
 - build the docker image!
