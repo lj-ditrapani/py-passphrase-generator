@@ -6,10 +6,10 @@ def gen_passphrase(word_count: int, separator: str, file_prefix: str) -> None:
     with open(file_prefix + ".txt", "r") as file:
         text = file.read()
     lines = [line.strip() for line in text.strip().splitlines()]
-    count = len(lines)
+    word_list_size = len(lines)
 
     def gen_word() -> str:
-        i = secrets.randbelow(count)
+        i = secrets.randbelow(word_list_size)
         return lines[i]
 
     words = [gen_word() for n in range(word_count)]
