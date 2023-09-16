@@ -1,1 +1,0 @@
-docker run pass-gen

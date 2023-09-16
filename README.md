@@ -3,6 +3,11 @@
 Generate random passphrases from a word list.
 
     ```
+    docker run ljditrapani/pass-gen 8 '-'
+    ```
+    or
+
+    ```
     python app.py --help
     ```
 
@@ -113,3 +118,12 @@ get the total passphrase entropy.
     ```commandline
     black app.py
     ```
+
+
+### Publish
+
+    docker login -u ljditrapani
+    docker tag pass-gen ljditrapani/pass-gen
+    docker push ljditrapani/pass-gen
+    docker tag pass-gen ljditrapani/pass-gen:X.X.X
+    docker push ljditrapani/pass-gen:X.X.X
