@@ -33,7 +33,7 @@ For use in generating the few passwords in life you _have_ to remember.
 Like your password for logging into your physical laptop or a master password
 for a password vault.
 Many websites exists that do this already.
-But I want a tool I can read the source in 5 mintues and run on my own machine.
+But I want a tool I can read the source in 5 minutes and run on my own machine.
 
 ![xkcd password strength comit](https://imgs.xkcd.com/comics/password_strength.png)
 
